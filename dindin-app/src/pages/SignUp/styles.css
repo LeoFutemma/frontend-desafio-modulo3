@@ -1,0 +1,41 @@
+.container__register {
+  font-family: "Rubik", sans-serif;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 41px 100px 95px 100px;
+}
+
+.form__box {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+}
+
+.name,
+.password__register {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.confirmation {
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.back__login {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7b61ff;
+}
+
+.error__register {
+  position: absolute;
+  bottom: 142px;
+  color: red;
+}

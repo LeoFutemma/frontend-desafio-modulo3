@@ -1,0 +1,173 @@
+.container__home {
+  background-image: linear-gradient(to right,
+      rgba(5, 237, 227, 1),
+      rgba(100, 95, 251, 1));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 41px 100px 31px 100px;
+}
+
+.profile__home {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.name__profile {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 16px;
+}
+
+.main__informations {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 60px 60px 0px 0px;
+  padding: 55px 100px 55px 102px;
+}
+
+.filter {
+  all: unset;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-bottom: 25px;
+  transform: translateZ(5px) scale(1);
+}
+
+.filter:hover {
+  transform: translateZ(8px) scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+.filter__img {
+  margin-right: 4px;
+}
+
+.transactions {
+  display: flex;
+}
+
+.transactions__header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 21px 27px;
+  height: 58px;
+  width: 100%;
+}
+
+.main__transaction {
+  width: 100%;
+}
+
+.transactions__actions {
+  margin-left: 25px;
+}
+
+.column__data {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.data__img {
+  margin-left: 4px;
+}
+
+.summary__informations {
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 26px 33px;
+  margin-left: 40px;
+  width: 236px;
+}
+
+.summary__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2f2f2f;
+}
+
+.deposits,
+.withdrawals,
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deposits__label,
+.withdrawals__label {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #2f2f2f;
+}
+
+.balance__label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2F2F2F;
+}
+
+.deposits__label {
+  margin-bottom: 12px;
+  margin-top: 23px;
+}
+
+.withdrawals__label {
+  margin-bottom: 17px;
+}
+
+.deposits__value,
+.withdrawals__value {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.deposits__value {
+  color: #645ffb;
+  margin-top: 23px;
+}
+
+.withdrawals__value {
+  color: #fa8c10;
+}
+
+.balance__value {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3a9ff1;
+}
+
+.divider {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.open__modal {
+  position: relative;
+}

@@ -1,0 +1,50 @@
+.categories__component {
+  background: #fafafa;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 32px 32px 13px 32px;
+  width: 100%;
+  margin-bottom: 61px;
+}
+
+.categories__title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #b9b9b9;
+  margin-bottom: 20px;
+}
+
+.categories__tags {
+  display: flex;
+  align-items: initial;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.clean__filter,
+.apply__filter {
+  all: unset;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 7px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transform: translateZ(5px) scale(1);
+}
+
+.apply__filter {
+  background-color: #7978D9;
+  color: #fff;
+  margin-left: 18px;
+}
+
+.clean__filter:hover,
+.apply__filter:hover {
+  transform: translateZ(8px) scale(1.1);
+  transition: all .4s ease-in-out;
+}

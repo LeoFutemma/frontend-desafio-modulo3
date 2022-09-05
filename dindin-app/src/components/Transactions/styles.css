@@ -1,0 +1,92 @@
+.transaction {
+  display: flex;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 21px 27px 21px 0px;
+  height: 60px;
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+.date {
+  padding-left: 17px;
+}
+
+.week,
+.content,
+.category,
+.price {
+  position: relative;
+}
+
+.week {
+  left: 90px;
+}
+
+.content {
+  left: 70px;
+}
+
+.category {
+  left: 30px;
+}
+
+.price {
+  right: 33px;
+}
+
+.week,
+.content,
+.category,
+.transaction__line,
+.transaction__line--negative,
+.transaction__line--positive {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.column__data {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+.transaction__line--positive {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7b61ff;
+}
+
+.transaction__line--negative {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fa8c10;
+}
+
+.transaction__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transaction__delete {
+  margin-left: 12px;
+}
+
+.transaction__delete,
+.transaction__edit {
+  transform: translateZ(5px) scale(1);
+  cursor: pointer;
+}
+
+.transaction__delete:hover,
+.transaction__edit:hover {
+  transform: translateZ(8px) scale(1.1);
+  transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,10 @@
+.logo {
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.logo__name {
+  color: #fff;
+  margin-bottom: 6px;
+  cursor: pointer;
+}

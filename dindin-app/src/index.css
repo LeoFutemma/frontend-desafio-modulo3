@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #fff;   
+}
+
+section {
+  margin-right: 100px;
+}
+
+strong {
+  color: #7978d9;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978d9;
+  margin-bottom: 48px;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 513px;
+  padding: 60px 32px 53px 32px;
+}
