@@ -3,7 +3,7 @@
 # Desafio | Front-end - Módulo 3
 
 :pencil2: Projeto (originalmente desenvolvido entre 01 e 10 de Julho de 2022) <br>
-Desafio proposto pela [Cubos Academy](https://cubos.academy/sucesso), tem como objetivo ciar uma aplicação web de Banco Digital.
+Desafio proposto pela [Cubos Academy](https://cubos.academy/sucesso), tem como objetivo ciar uma aplicação web de finanças pessoais.
 
 :desktop_computer: Tecnologias usadas
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
